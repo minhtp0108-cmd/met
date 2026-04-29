@@ -26,10 +26,10 @@
       <div class="header-actions">
         <nav class="site-nav" aria-label="Primary navigation">
           <a href="#about">About</a>
-          <a href="#relaxation">Music</a>
-          <a href="#network">Network</a>
+          <a href="#relaxation">Our business</a>
+          <a href="#network">Our partners</a>
         </nav>
-        <a class="nav-cta" href="#contact">Partner With Us</a>
+        <a class="nav-cta" href="#contact">Contact</a>
       </div>
     </header>
 
@@ -59,7 +59,7 @@
       <section class="section about-section" id="about">
         <div class="section-shell about-grid">
           <div class="about-heading reveal-left">
-            <p class="eyebrow">About M.E.T</p>
+            <p class="eyebrow about-eyebrow">About M.E.T</p>
             <h2>A music network built for scale</h2>
             <p>
               M.E.T Entertainment is a music content network specializing in
@@ -68,22 +68,96 @@
               sustainable revenue ecosystems.
             </p>
           </div>
-          <div class="metrics-grid reveal-right" aria-label="M.E.T Entertainment scale metrics">
-            <article class="metric-card">
-              <strong>110+</strong>
-              <span>Channels</span>
+          <div class="about-cards reveal-right" aria-label="M.E.T Entertainment scale metrics">
+            <article class="about-card about-card--featured about-card--cid">
+              <div class="about-card__visual" aria-hidden="true">
+                <svg viewBox="0 0 140 140" fill="none">
+                  <defs>
+                    <linearGradient id="cidShield" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0%" stop-color="#22d3ee" />
+                      <stop offset="100%" stop-color="#3b82f6" />
+                    </linearGradient>
+                    <linearGradient id="cidPlay" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0%" stop-color="#67e8f9" />
+                      <stop offset="100%" stop-color="#3b82f6" />
+                    </linearGradient>
+                  </defs>
+                  <ellipse cx="70" cy="78" rx="58" ry="14" stroke="#22d3ee" stroke-opacity="0.45" stroke-width="1.4" transform="rotate(-12 70 78)" />
+                  <path d="M70 22 L102 36 V72 C102 92 70 110 70 110 C70 110 38 92 38 72 V36 L70 22 Z" fill="url(#cidShield)" fill-opacity="0.18" stroke="url(#cidShield)" stroke-width="1.6" />
+                  <rect x="56" y="56" width="28" height="22" rx="5" fill="url(#cidPlay)" fill-opacity="0.85" />
+                  <path d="M66 62 L66 72 L75 67 Z" fill="#0b0f1a" />
+                  <g fill="#67e8f9" opacity="0.9">
+                    <path d="M30 50 l1.5 -1.5 l1.5 1.5 l-1.5 1.5 z" />
+                    <path d="M112 56 l1.5 -1.5 l1.5 1.5 l-1.5 1.5 z" />
+                    <path d="M118 92 l1.2 -1.2 l1.2 1.2 l-1.2 1.2 z" />
+                    <circle cx="22" cy="86" r="1.4" />
+                  </g>
+                </svg>
+              </div>
+              <div class="about-card__content">
+                <strong>200+</strong>
+                <span>CID registered</span>
+              </div>
+              <div class="about-card__decor about-card__decor--map" aria-hidden="true"></div>
             </article>
-            <article class="metric-card">
-              <strong>200+</strong>
-              <span>CID registered</span>
+            <article class="about-card about-card--revenue">
+              <div class="about-card__visual" aria-hidden="true">
+                <svg viewBox="0 0 140 140" fill="none">
+                  <defs>
+                    <linearGradient id="revBars" x1="0" y1="1" x2="0" y2="0">
+                      <stop offset="0%" stop-color="#34d399" stop-opacity="0.4" />
+                      <stop offset="100%" stop-color="#34d399" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="38" cy="44" r="14" stroke="#34d399" stroke-width="1.6" />
+                  <text x="38" y="50" text-anchor="middle" font-size="18" font-weight="700" fill="#34d399">$</text>
+                  <rect x="58" y="86" width="10" height="22" rx="2" fill="url(#revBars)" />
+                  <rect x="74" y="74" width="10" height="34" rx="2" fill="url(#revBars)" />
+                  <rect x="90" y="60" width="10" height="48" rx="2" fill="url(#revBars)" />
+                  <rect x="106" y="44" width="10" height="64" rx="2" fill="url(#revBars)" />
+                  <path d="M52 84 L70 70 L86 56 L104 40 L116 30" stroke="#a7f3d0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                  <path d="M110 28 L120 30 L118 40 Z" fill="#a7f3d0" />
+                  <g fill="#34d399" opacity="0.7">
+                    <path d="M42 76 l1.4 -1.4 l1.4 1.4 l-1.4 1.4 z" />
+                    <path d="M62 60 l1.2 -1.2 l1.2 1.2 l-1.2 1.2 z" />
+                    <circle cx="124" cy="78" r="1.4" />
+                  </g>
+                </svg>
+              </div>
+              <div class="about-card__content">
+                <strong>$1.7M</strong>
+                <span>Revenue in 2025</span>
+              </div>
             </article>
-            <article class="metric-card">
-              <strong>$1.7M</strong>
-              <span>Revenue in 2025</span>
-            </article>
-            <article class="metric-card">
-              <strong>45+</strong>
-              <span>Team members</span>
+            <article class="about-card about-card--team">
+              <div class="about-card__visual" aria-hidden="true">
+                <svg viewBox="0 0 140 140" fill="none">
+                  <defs>
+                    <linearGradient id="teamScreen" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0%" stop-color="#c084fc" />
+                      <stop offset="100%" stop-color="#7c3aed" />
+                    </linearGradient>
+                  </defs>
+                  <rect x="50" y="22" width="44" height="34" rx="8" stroke="url(#teamScreen)" stroke-width="1.6" fill="url(#teamScreen)" fill-opacity="0.18" />
+                  <path d="M66 32 L66 46 L80 39 Z" fill="#c084fc" />
+                  <circle cx="50" cy="74" r="9" stroke="#c084fc" stroke-width="1.6" fill="#c084fc" fill-opacity="0.18" />
+                  <path d="M36 100 C 36 90 44 84 50 84 C 56 84 64 90 64 100" stroke="#c084fc" stroke-width="1.6" fill="#c084fc" fill-opacity="0.18" stroke-linecap="round" />
+                  <circle cx="72" cy="68" r="11" stroke="#a855f7" stroke-width="1.6" fill="#a855f7" fill-opacity="0.22" />
+                  <path d="M55 102 C 55 90 64 82 72 82 C 80 82 89 90 89 102" stroke="#a855f7" stroke-width="1.6" fill="#a855f7" fill-opacity="0.22" stroke-linecap="round" />
+                  <circle cx="94" cy="74" r="9" stroke="#c084fc" stroke-width="1.6" fill="#c084fc" fill-opacity="0.18" />
+                  <path d="M80 100 C 80 90 88 84 94 84 C 100 84 108 90 108 100" stroke="#c084fc" stroke-width="1.6" fill="#c084fc" fill-opacity="0.18" stroke-linecap="round" />
+                  <g fill="#c084fc" opacity="0.85">
+                    <path d="M30 38 l1.4 -1.4 l1.4 1.4 l-1.4 1.4 z" />
+                    <path d="M110 32 l1.4 -1.4 l1.4 1.4 l-1.4 1.4 z" />
+                    <circle cx="118" cy="60" r="1.4" />
+                    <circle cx="22" cy="80" r="1.4" />
+                  </g>
+                </svg>
+              </div>
+              <div class="about-card__content">
+                <strong>45+</strong>
+                <span>Team members</span>
+              </div>
             </article>
           </div>
         </div>
@@ -107,18 +181,6 @@
                 <li>
                   <span class="metric-icon" aria-hidden="true">
                     <svg viewBox="0 0 24 24">
-                      <path d="M12 2v20" />
-                      <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7H14a3.5 3.5 0 0 1 0 7H6" />
-                    </svg>
-                  </span>
-                  <span>
-                    <strong>Up to $40K</strong>
-                    <em>monthly revenue per channel</em>
-                  </span>
-                </li>
-                <li>
-                  <span class="metric-icon" aria-hidden="true">
-                    <svg viewBox="0 0 24 24">
                       <path d="M9 18V5l12-2v13" />
                       <circle cx="6" cy="18" r="3" />
                       <circle cx="18" cy="16" r="3" />
@@ -127,6 +189,19 @@
                   <span>
                     <strong>200+ tracks</strong>
                     <em>registered with Content ID</em>
+                  </span>
+                </li>
+                <li>
+                  <span class="metric-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M12 3 2 8l10 5 10-5-10-5Z" />
+                      <path d="m2 16 10 5 10-5" />
+                      <path d="m2 12 10 5 10-5" />
+                    </svg>
+                  </span>
+                  <span>
+                    <strong>600+ tracks</strong>
+                    <em>planned for production</em>
                   </span>
                 </li>
                 <li>
@@ -149,18 +224,21 @@
                     </svg>
                   </span>
                   <span>
-                    <strong>Evergreen</strong>
-                    <em>long session durations</em>
+                    <strong>Long session durations</strong>
+                    <em>evergreen traffic</em>
                   </span>
                 </li>
               </ul>
             </div>
-            <article class="dashboard-card dashboard-image-card" aria-label="YouTube analytics dashboard screenshot">
-              <img
-                src="./assets/relaxation-dashboard.png"
-                alt="YouTube analytics dashboard showing views, watch time, subscribers, estimated revenue, and realtime views"
-              />
-            </article>
+            <figure class="dashboard-figure">
+              <article class="dashboard-card dashboard-image-card" aria-label="Relaxing nighttime landscape">
+                <img
+                  src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=80"
+                  alt="Calm starry night over mountains evoking relaxation music ambience"
+                />
+              </article>
+              <figcaption class="image-caption">Demo video for illustrative purposes only</figcaption>
+            </figure>
           </div>
 
           <div class="growth-plan">
@@ -173,27 +251,47 @@
             <article>
               <span>Phase 1</span>
               <strong>Mar-Jun 2026</strong>
-              <p>Launch initial YouTube channels and begin building the long-form relaxation content library.</p>
+              <ul class="phase-bullets">
+                <li>Launch channels</li>
+                <li>Build content library</li>
+                <li>Set up CMS</li>
+              </ul>
             </article>
             <article>
               <span>Phase 2</span>
               <strong>Jun-Sep 2026</strong>
-              <p>Publish consistently, expand the catalogue, register additional CIDs, and grow engagement.</p>
+              <ul class="phase-bullets">
+                <li>Scale production</li>
+                <li>Expand CID catalogue</li>
+                <li>Grow engagement</li>
+              </ul>
             </article>
             <article>
               <span>Phase 3</span>
               <strong>Sep-Dec 2026</strong>
-              <p>Build stable organic traffic as long-form videos begin receiving algorithmic recommendations.</p>
+              <ul class="phase-bullets">
+                <li>Drive organic traffic</li>
+                <li>Gain algorithm boost</li>
+                <li>Optimize performance</li>
+              </ul>
             </article>
             <article>
               <span>Phase 4</span>
               <strong>Early-Mid 2027</strong>
-              <p>Reach consistent viewership and establish an evergreen relaxation content library.</p>
+              <ul class="phase-bullets">
+                <li>Stabilize viewership</li>
+                <li>Build evergreen system</li>
+                <li>Increase monetization</li>
+              </ul>
             </article>
             <article>
               <span>Phase 5</span>
               <strong>Mid-Late 2027</strong>
-              <p>Scale mature channels, deepen CMS coverage, and systemize repeatable channel operations.</p>
+              <ul class="phase-bullets">
+                <li>Scale channels</li>
+                <li>Expand network</li>
+                <li>Systemize operations</li>
+              </ul>
             </article>
           </div>
         </div>
@@ -212,70 +310,155 @@
       </section>
 
       <section class="section latin-section" id="latin">
-          <div class="section-shell">
-            <div class="section-heading">
-              <h2>Latin Music <span>A long-standing core strength</span></h2>
+        <div class="section-shell latin-layout">
+          <div class="latin-summary">
+            <p class="eyebrow">Latin Music</p>
+            <h2>A long-standing core strength</h2>
+            <p class="latin-summary__intro">We operate across multiple Latin music genres, building a diverse content network with proven monetization performance.</p>
+
+            <div class="latin-divider" aria-hidden="true"></div>
+
+            <div class="latin-revenue">
+              <p class="latin-revenue__label">Monthly Revenue</p>
+              <div class="latin-revenue__amount">$20K — $30K</div>
+              <p class="latin-revenue__note">Stable revenue generated across our Latin music network.</p>
             </div>
-            <div class="latin-intro">
-              <div class="latin-copy">
-                <ul class="supporting-metrics">
-                  <li>
-                    <span class="metric-icon" aria-hidden="true">
-                      <svg viewBox="0 0 24 24">
-                        <path d="M12 2v20" />
-                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7H14a3.5 3.5 0 0 1 0 7H6" />
-                      </svg>
-                    </span>
-                    <span>
-                      <strong>$20K–$30K</strong>
-                      <em>monthly revenue per channel</em>
-                    </span>
-                  </li>
-                  <li>
-                    <span class="metric-icon" aria-hidden="true">
-                      <svg viewBox="0 0 24 24">
-                        <circle cx="12" cy="12" r="10" />
-                        <path d="M8 15l4-4 4 4" />
-                      </svg>
-                    </span>
-                    <span>
-                      <strong>Established channels</strong>
-                      <em>across US & Mexico markets</em>
-                    </span>
-                  </li>
-                  <li>
-                    <span class="metric-icon" aria-hidden="true">
-                      <svg viewBox="0 0 24 24">
-                        <rect x="3" y="11" width="18" height="7" rx="2" />
-                        <path d="M16 11V7a4 4 0 0 0-8 0v4" />
-                      </svg>
-                    </span>
-                    <span>
-                      <strong>Stable revenue</strong>
-                      <em>performance over time</em>
-                    </span>
-                  </li>
-                  <li>
-                    <span class="metric-icon" aria-hidden="true">
-                      <svg viewBox="0 0 24 24">
-                        <path d="M3 12h3l3 8 4-16 3 8h4" />
-                      </svg>
-                    </span>
-                    <span>
-                      <strong>Proven scalability</strong>
-                      <em>across multiple genres</em>
-                    </span>
-                  </li>
-                </ul>
-              </div>
-              <article class="dashboard-card dashboard-image-card" aria-label="YouTube analytics dashboard screenshot">
-                <img
-                  src="./assets/latin-dashboard.png"
-                  alt="YouTube analytics dashboard showing views, watch time, subscribers, estimated revenue, and realtime views"
-                />
+
+            <div class="latin-trust">
+              <article>
+                <span class="latin-trust__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 18V5l12-2v13" />
+                    <circle cx="6" cy="18" r="3" />
+                    <circle cx="18" cy="16" r="3" />
+                  </svg>
+                </span>
+                <strong>Diverse Content</strong>
+                <p>Multiple high-performing Latin music genres</p>
+              </article>
+              <article>
+                <span class="latin-trust__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 3l8 3v6c0 5-4 8-8 9-4-1-8-4-8-9V6l8-3z" />
+                  </svg>
+                </span>
+                <strong>Proven Performance</strong>
+                <p>Consistent results over time</p>
+              </article>
+              <article>
+                <span class="latin-trust__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="6" cy="18" r="2" />
+                    <circle cx="18" cy="18" r="2" />
+                    <circle cx="12" cy="6" r="2" />
+                    <path d="m12 8 6 8M12 8l-6 8M6 18h12" />
+                  </svg>
+                </span>
+                <strong>Scalable Network</strong>
+                <p>Built for long-term monetization</p>
               </article>
             </div>
+          </div>
+
+          <div class="latin-coverage">
+            <h3 class="latin-coverage__title">Our Latin Music Coverage</h3>
+
+            <div class="latin-coverage__grid">
+              <div class="latin-lang latin-lang--english">
+                <span class="latin-lang__badge">English</span>
+                <article class="genre-card">
+                  <span class="genre-card__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+                      <path d="M12 3v18M5 8h14" />
+                    </svg>
+                  </span>
+                  <div>
+                    <strong>Gospel Music</strong>
+                    <p>Faith-driven content that inspires.</p>
+                  </div>
+                </article>
+                <article class="genre-card">
+                  <span class="genre-card__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M7 14V6a2 2 0 0 1 4 0v8M13 14V6a2 2 0 0 1 4 0v8M7 14c0 3 2 6 5 6s5-3 5-6" />
+                      <path d="M12 4v3" />
+                    </svg>
+                  </span>
+                  <div>
+                    <strong>Worship Music</strong>
+                    <p>Spirit-led worship and praise.</p>
+                  </div>
+                </article>
+                <article class="genre-card">
+                  <span class="genre-card__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M3 16c2-1 4-1 9-1s7 0 9 1" />
+                      <path d="M6 16c0-4 2-7 6-7s6 3 6 7" />
+                    </svg>
+                  </span>
+                  <div>
+                    <strong>Country Music</strong>
+                    <p>Timeless stories and authentic sounds.</p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="latin-lang latin-lang--espanol">
+                <span class="latin-lang__badge">Espanol</span>
+                <article class="genre-card">
+                  <span class="genre-card__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="4" y="6" width="16" height="12" rx="1.5" />
+                      <path d="M8 6v12M12 6v12M16 6v12" />
+                    </svg>
+                  </span>
+                  <div>
+                    <strong>Cumbias Musica</strong>
+                    <p>Rhythms that bring people together.</p>
+                  </div>
+                </article>
+                <article class="genre-card">
+                  <span class="genre-card__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 21s-7-4.5-7-11a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 6.5-7 11-7 11z" />
+                    </svg>
+                  </span>
+                  <div>
+                    <strong>Balada Romántica</strong>
+                    <p>Emotional songs that connect hearts.</p>
+                  </div>
+                </article>
+                <article class="genre-card">
+                  <span class="genre-card__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M3 14c2-3 5-4 8-4 1 0 2-1 2-2 1 0 2 0 3 1 1 1 2 2 4 1-1 2-3 4-6 4-2 0-3 1-4 2s-3 2-5 2c-1 0-2-1-2-2v-2z" />
+                    </svg>
+                  </span>
+                  <div>
+                    <strong>Cristiana Music</strong>
+                    <p>Uplifting messages through music.</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <article class="latin-production">
+              <img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1400&q=80" alt="Music production studio with mixing board and monitors" loading="lazy" />
+              <div class="latin-production__body">
+                <span class="latin-production__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 18V5l12-2v13" />
+                    <circle cx="6" cy="18" r="3" />
+                    <circle cx="18" cy="16" r="3" />
+                  </svg>
+                </span>
+                <strong>Content Production</strong>
+                <p>High-quality music production powering our content network.</p>
+              </div>
+            </article>
+          </div>
         </div>
+
         <svg class="section-wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
           <defs>
             <linearGradient id="waveAccentB" x1="0" y1="0" x2="1" y2="0">
@@ -317,15 +500,24 @@
 
       <section class="contact-section" id="contact">
         <div class="section-shell contact-stack">
-          <p>
+          <p class="contact-eyebrow">Let's work together</p>
+          <p class="contact-stack__desc">
             We partner with content owners, creators, and rights holders to
             build scalable YouTube channels and unlock long-term revenue.
           </p>
           <div class="contact-action">
-            <a class="primary-button" href="mailto:info@met-media.net">
+            <a class="primary-button primary-button--with-icon" href="mailto:info@met-media.net">
+              <svg class="primary-button__lead" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="m11 17 2 2a1 1 0 0 0 3-3" />
+                <path d="m14 14 2.5 2.5a1 1 0 0 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 0 1-1.42-1.42l3.59-3.59a2 2 0 0 1 2.82 0l4.65 4.65" />
+                <path d="m18 15-2-2" />
+                <path d="m3 11 4-4" />
+                <path d="m11 9 1.41 1.41a1 1 0 0 0 1.42 0L17 7l3 3" />
+              </svg>
               START A PARTNERSHIP
               <span aria-hidden="true">→</span>
             </a>
+            <span class="contact-divider" aria-hidden="true"></span>
             <a class="email-link" href="mailto:info@met-media.net">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <rect x="3" y="5" width="18" height="14" rx="2" />
@@ -335,6 +527,21 @@
             </a>
           </div>
         </div>
+        <svg class="contact-wave" viewBox="0 0 1440 200" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="contactWaveGrad" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0%" stop-color="#00c2d1" stop-opacity="0" />
+              <stop offset="35%" stop-color="#00c2d1" stop-opacity="0.45" />
+              <stop offset="55%" stop-color="#3b82f6" stop-opacity="0.45" />
+              <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+            </linearGradient>
+          </defs>
+          <path d="M0 80 C 240 40 480 120 720 80 S 1200 40 1440 80" stroke="url(#contactWaveGrad)" fill="none" stroke-width="1.2" />
+          <path d="M0 100 C 240 60 480 140 720 100 S 1200 60 1440 100" stroke="url(#contactWaveGrad)" fill="none" stroke-width="1" opacity="0.78" />
+          <path d="M0 120 C 240 80 480 160 720 120 S 1200 80 1440 120" stroke="url(#contactWaveGrad)" fill="none" stroke-width="0.9" opacity="0.6" />
+          <path d="M0 140 C 240 100 480 180 720 140 S 1200 100 1440 140" stroke="url(#contactWaveGrad)" fill="none" stroke-width="0.8" opacity="0.45" />
+          <path d="M0 160 C 240 120 480 200 720 160 S 1200 120 1440 160" stroke="url(#contactWaveGrad)" fill="none" stroke-width="0.7" opacity="0.3" />
+        </svg>
       </section>
     </main>
 
