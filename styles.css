@@ -766,55 +766,30 @@ h2 {
 .latin-coverage__grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px 18px;
-}
-
-.latin-lang {
-  display: grid;
-  gap: 12px;
-  --lang: var(--teal);
-  --lang-bg: rgba(0, 194, 209, 0.1);
-  --lang-border: rgba(0, 194, 209, 0.32);
-}
-
-.latin-lang--espanol {
-  --lang: #a3e635;
-  --lang-bg: rgba(163, 230, 53, 0.12);
-  --lang-border: rgba(163, 230, 53, 0.34);
-}
-
-.latin-lang__badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: max-content;
-  padding: 6px 18px;
-  border: 1px solid var(--lang-border);
-  border-radius: 999px;
-  background: var(--lang-bg);
-  color: var(--lang);
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.04em;
+  gap: 16px;
 }
 
 .genre-card {
   display: flex;
-  align-items: flex-start;
-  gap: 14px;
-  padding: 16px 18px;
+  align-items: center;
+  gap: 18px;
+  min-height: 110px;
+  padding: 24px 26px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: rgba(255, 255, 255, 0.02);
   transition: border-color 200ms ease, background 200ms ease;
+  --gc-color: var(--teal);
+  --gc-border: rgba(0, 194, 209, 0.32);
 }
 
-.latin-lang--espanol .genre-card {
-  border-color: rgba(163, 230, 53, 0.12);
+.genre-card:nth-child(2n) {
+  --gc-color: #a3e635;
+  --gc-border: rgba(163, 230, 53, 0.32);
 }
 
 .genre-card:hover {
-  border-color: var(--lang-border);
+  border-color: var(--gc-border);
   background: rgba(255, 255, 255, 0.035);
 }
 
@@ -823,32 +798,21 @@ h2 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-  background: var(--lang-bg);
-  color: var(--lang);
+  width: 36px;
+  height: 36px;
+  color: var(--gc-color);
 }
 
 .genre-card__icon svg {
-  width: 22px;
-  height: 22px;
+  width: 30px;
+  height: 30px;
 }
 
 .genre-card strong {
-  display: block;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
+  letter-spacing: -0.01em;
   color: var(--text);
-}
-
-.genre-card p {
-  margin: 4px 0 0;
-  color: var(--muted);
-  font-size: 13px;
-  line-height: 1.5;
 }
 
 .latin-production {
